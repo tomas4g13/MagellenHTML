@@ -1,0 +1,61 @@
+﻿body {
+	color:#FFFFFF;
+	background-color:#000000;
+}
+
+/* SINGLE USE SECTIONS */
+/* Bootstrap override*/
+.jumbotron {
+	height:600px;
+	background-image: url('../images/slide-bkg-operations.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+/*.get-started .row {
+	background-color:#f0f0f0;
+}*/
+
+.get-started > .container > .row > div {
+background-color:#f0f0f0;
+	margin:5px;
+}
+
+.get-started h3 {
+	color:#000000;
+}
+
+.get-started p {
+	color: #313131;
+	font-size:16px;
+}
+
+.get-started a {
+	text-decoration:none;
+	font-weight:bold;
+	color: #272727;
+
+}
+
+/* NAVIGATION */
+/* Bootstrap override*/
+.navbar {
+	border:none;
+	border-radius:0;
+	margin-bottom:0;
+	background-color:#eaba38;
+
+}
+
+/* Bootstrap override*/
+.nav a {
+	font-size:18px;
+	text-transform:capitalize;
+	color: #000000;
+}
+
+/* Bootstrap override*/
+.navbar-default .navbar-nav > .active > a {
+	background-color:#272727;
+	color:#f0f0f0;
+}
