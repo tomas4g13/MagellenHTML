@@ -3,6 +3,25 @@
 	background-color:#000000;
 }
 
+.flex-container {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+}
+
+.flex-content {
+	flex-basis:70%;
+	overflow:scroll;
+}
+
+.side-nav {
+	flex-basis:30%;
+	flex-direction: column;
+	background-color:#313131;
+}
+
 /* SINGLE USE SECTIONS */
 /* Bootstrap override*/
 .jumbotron {
@@ -53,7 +72,6 @@
 	border-radius:0;
 	margin-bottom:0;
 	background-color:#eaba38;
-
 }
 
 /* Bootstrap override*/
@@ -67,4 +85,9 @@
 .navbar-default .navbar-nav > .active > a {
 	background-color:#272727;
 	color:#f0f0f0;
+}
+
+.flex-container header {
+	width:100%;
+	background-color:#eaba38;
 }
