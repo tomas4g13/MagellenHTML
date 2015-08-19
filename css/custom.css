@@ -18,7 +18,7 @@
 	align-items: flex-start;
 }
 
-	.flex-master > header, .jumbotron, .subflex, footer {
+	.flex-master > header, .jumbotron, .subflex, main, footer {
 		-ms-flex: 1 0 100%;
 		-webkit-flex: 1 0 100%;
 		flex: 1 0 100%;
@@ -46,6 +46,35 @@
 		padding: 10px 20px;
 		border-radius: 5px;
 		background-color: #f0f0f0;
+	}
+
+main {
+	display: flex;
+	-ms-flex-direction: row;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	-ms-flex-wrap: nowrap;
+	-webkit-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	-ms-align-content: stretch;
+	-webkit-align-content: stretch;
+	align-content: stretch;
+	align-items: stretch;
+}
+
+	main > nav {
+		width: 200px;
+		color: #FFFFFF;
+		background-color: #272727;
+	}
+
+	main > .content {
+		-ms-flex: 1 3 400px;
+		-webkit-flex: 1 3 400px;
+		flex: 1 3 400px;
+		margin:25px;
+		background-color: #808080;
 	}
 
 /*.flex-container {
